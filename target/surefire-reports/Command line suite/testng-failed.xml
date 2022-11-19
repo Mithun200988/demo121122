@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="DemoProject.demo121122.SubmitOrderTest">
+        <methods>
+          <include name="orderHistoryTest"/>
+          <include name="loginApplication"/>
+          <include name="tearDown"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- DemoProject.demo121122.SubmitOrderTest -->
+      <class name="DemoProject.demo121122.ErrorValidationTest">
+        <methods>
+          <include name="loginApplication"/>
+          <include name="productErrorvalidation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- DemoProject.demo121122.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
